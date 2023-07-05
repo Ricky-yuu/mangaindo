@@ -1,0 +1,42 @@
+[
+{
+    "domain": ".msu.edu.my",
+    "expirationDate": 1681731382.444315,
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "no_restriction",
+    "secure": true,
+    "session": false,
+    "storeId": "0",
+    "value": "SXxj_PIZQGPkNijQXj44_x_ZdMKbke5bVL_3CaCaUoU-1681729582-0-AZhI8ZCRb1KcMzkrJEp6Ie2uxBPmqMhzBzVbX4i682hzBungh/J8l/au8z3DQkgX0Ll4TYTg0Q9OpDlav1ZAy+gOZh8oPiXLQFi70NROz8K/lyEwwLm7S4cPk5hx0Dhqqw==",
+    "id": 1
+},
+{
+    "domain": "eklas.msu.edu.my",
+    "hostOnly": true,
+    "httpOnly": true,
+    "name": "AzureAppProxyAnalyticCookie_d085e7d8-f2a5-4de0-b3aa-5c144ee8b086_https_1.3",
+    "path": "/",
+    "sameSite": "no_restriction",
+    "secure": true,
+    "session": true,
+    "storeId": "0",
+    "value": "4|LxXnHkJV4heJwKN4EzJnTUx0c6AYOFQTxtq/OhYY8lqUdpu+Z/dUwcDuK8EIN/LpZTOxxNXYHvm+RKkAXx2H4VaKKIZeD7KkNo0yRtUfCw2Qu63osn7QKkOE8ofcQgpm+5dzv2Cm3T5HKKW8gYWLEA==",
+    "id": 2
+},
+{
+    "domain": "eklas.msu.edu.my",
+    "hostOnly": true,
+    "httpOnly": false,
+    "name": "PHPSESSID",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": true,
+    "storeId": "0",
+    "value": "s83jjaoh7h7q4rndu0pl1o0gv4",
+    "id": 3
+}
+]
