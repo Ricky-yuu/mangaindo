@@ -20,7 +20,7 @@ Route::get('/admin', function () {
     return view('admin/Dashboard');
 });
 Route::get('/Hero', function () {
-    return view('admin/login');
+    return view('admin/detailmanga');
 });
 Route::get('/action', function () {
     return view('admin/action');
