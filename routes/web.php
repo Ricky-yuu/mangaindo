@@ -14,8 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing/home');
 });
+Route::get('/admin', function () {
+    return view('admin/Dashboard');
+});
+Route::get('/Hero', function () {
+    return view('admin/Hero');
+});
+Route::get('/action', function () {
+    return view('admin/action');
+});
+
 
 Route::get('/scraper', [App\Http\Controllers\ScraperController::class, 'scraper'])->name('scraper');
 
