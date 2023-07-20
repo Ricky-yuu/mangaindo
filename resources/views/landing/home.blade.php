@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="{{asset('style/assets/css/home.css')}}">
     <title>Hello, world!</title>
   </head>
   <body>
@@ -15,7 +15,7 @@
 <!-- navbar -->
 <div class="container">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    {{-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">MANGA INDO</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +45,9 @@
       </form>
     </div>
   </div>
-</nav>
+</nav> --}}
+@extends('landing.navbar')
+@section('navbar')
 
 </div>
 
@@ -66,17 +68,7 @@
 </div>
 </div>
 
-<!-- list manga terbaru -->
-<div class="cardgroub">
-    <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-    </div>
-</div>
+
 
 <div class="container">
   <div class="row">
@@ -84,6 +76,7 @@
 
     <div class="col-sm-8">
       <div class="row">
+        {{-- <div class="card-anime"> --}}
                         <div class="col-sm-3">
                         <div class="card">
                           <div class="card-body">
@@ -212,6 +205,8 @@
 
 
 <!-- footer -->
+
+
 <footer class="bg-dark text-white pt-5 pb-4">
   <div class="container text-center text-md-left">
     <div class="row text-center text-md-left">
@@ -294,6 +289,8 @@
     </div>
   </div>
 </footer>
+
+@endsection
 
     <!-- Optional JavaScript; choose one of the two! -->
 
