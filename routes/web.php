@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('landing/animelist');
+    return view('landing/genre');
 });
 Route::get('/admin', function () {
     return view('admin/Dashboard');
